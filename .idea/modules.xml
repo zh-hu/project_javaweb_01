@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/peoject_qqzone_2/peoject_qqzone_2.iml" filepath="$PROJECT_DIR$/peoject_qqzone_2/peoject_qqzone_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peoject_qqzone_3/peoject_qqzone_3.iml" filepath="$PROJECT_DIR$/peoject_qqzone_3/peoject_qqzone_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-book-laoshi/project-book-laoshi.iml" filepath="$PROJECT_DIR$/project-book-laoshi/project-book-laoshi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_book_2/project_book_2.iml" filepath="$PROJECT_DIR$/project_book_2/project_book_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_cookie_kaptcha_js/project_cookie_kaptcha_js.iml" filepath="$PROJECT_DIR$/project_cookie_kaptcha_js/project_cookie_kaptcha_js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_javaweb_01.iml" filepath="$PROJECT_DIR$/project_javaweb_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_vue_axios_json/project_vue_axios_json.iml" filepath="$PROJECT_DIR$/project_vue_axios_json/project_vue_axios_json.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script language="JavaScript" src="script/vue.js"></script>
+    <script language="JavaScript">
+
+        window.onload=function (){
+            var vue = new Vue({
+                "el":"#div1",
+                data:{
+                   mas:1
+                },
+                methods:{
+                    changeMas:function (){
+                        this.mas = this.mas+1;
+                    }
+                },
+                beforeCreate:function (){
+                    console.log("beforeCreate:vue对象创建之前");
+                    console.log("mas:"+this.mas);
+                },
+                create:function (){
+                    console.log("create:vue对象创建之后");
+                    console.log("mas:"+this.mas);
+                },
+                beforeMount:function (){
+                    console.log("beforeMount:数据装载之前");
+                    console.log("mas:"+document.getElementById("span").innerText);
+                },
+                mounted:function (){
+                    console.log("mounted:数据装载成功之后");
+                    console.log("mas:"+document.getElementById("span").innerText);
+                },
+                beforeUpdate:function (){
+                    console.log("beforeUpdate:数据更新之前");
+                    console.log("mas:"+this.mas);
+                    console.log("mas:"+document.getElementById("span").innerText);
+                },
+                update:function (){
+                    console.log("update:数据更新之后");
+                    console.log("mas:"+this.mas);
+
+
+
+
+
+
+
+                    console.log("mas:"+document.getElementById("span").innerText);
+                }
+            });
+        }
+
+    </script>
+</head>
+<body>
+    <div id="div1">
+        <span id="span" >{{mas}}</span>
+        <input type="button" value="改变mas的值" @click="changeMas"/>
+    </div>
+</body>
+</html>
